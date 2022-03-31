@@ -352,9 +352,3 @@ FROM bitnami/kubectl:1.22.7-debian-10-r9
 
 # Tags: 1.20.15-debian-10-r39
 FROM bitnami/kubectl:1.20.15-debian-10-r39
-
-# Tags: 1.23.4-debian-10-r9
-FROM bitnami/kubectl:1.23.4-debian-10-r9
-
-# Tags: 1.21.10-debian-10-r9
-FROM bitnami/kubectl:1.21.10-debian-10-r9
