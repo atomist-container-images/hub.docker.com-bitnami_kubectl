@@ -1,24 +1,69 @@
-# Tags: latest, 1.23.5-debian-10-r11, 1.23.5, 1.23-debian-10, 1.23
+# Tags: latest, 1.23.5-debian-10-r16, 1.23.5, 1.23-debian-10, 1.23
 FROM bitnami/kubectl:latest
-FROM bitnami/kubectl:1.23.5-debian-10-r11
+FROM bitnami/kubectl:1.23.5-debian-10-r16
 FROM bitnami/kubectl:1.23.5
 FROM bitnami/kubectl:1.23-debian-10
 FROM bitnami/kubectl:1.23
 
-# Tags: 1.22.8-debian-10-r11, 1.22.8, 1.22-debian-10, 1.22
-FROM bitnami/kubectl:1.22.8-debian-10-r11
+# Tags: _
+FROM bitnami/kubectl:_
+
+# Tags: 1.22.8-debian-10-r16, 1.22.8, 1.22-debian-10, 1.22
+FROM bitnami/kubectl:1.22.8-debian-10-r16
 FROM bitnami/kubectl:1.22.8
 FROM bitnami/kubectl:1.22-debian-10
 FROM bitnami/kubectl:1.22
 
-# Tags: _
-FROM bitnami/kubectl:_
-
-# Tags: 1.21.11-debian-10-r11, 1.21.11, 1.21-debian-10, 1.21
-FROM bitnami/kubectl:1.21.11-debian-10-r11
+# Tags: 1.21.11-debian-10-r16, 1.21.11, 1.21-debian-10, 1.21
+FROM bitnami/kubectl:1.21.11-debian-10-r16
 FROM bitnami/kubectl:1.21.11
 FROM bitnami/kubectl:1.21-debian-10
 FROM bitnami/kubectl:1.21
+
+# Tags: 1.22.8-debian-10-r15
+FROM bitnami/kubectl:1.22.8-debian-10-r15
+
+# Tags: 1.23.5-debian-10-r15
+FROM bitnami/kubectl:1.23.5-debian-10-r15
+
+# Tags: 1.21.11-debian-10-r15
+FROM bitnami/kubectl:1.21.11-debian-10-r15
+
+# Tags: 1.22.8-debian-10-r14
+FROM bitnami/kubectl:1.22.8-debian-10-r14
+
+# Tags: 1.23.5-debian-10-r14
+FROM bitnami/kubectl:1.23.5-debian-10-r14
+
+# Tags: 1.21.11-debian-10-r14
+FROM bitnami/kubectl:1.21.11-debian-10-r14
+
+# Tags: 1.22.8-debian-10-r13
+FROM bitnami/kubectl:1.22.8-debian-10-r13
+
+# Tags: 1.23.5-debian-10-r13
+FROM bitnami/kubectl:1.23.5-debian-10-r13
+
+# Tags: 1.21.11-debian-10-r13
+FROM bitnami/kubectl:1.21.11-debian-10-r13
+
+# Tags: 1.22.8-debian-10-r12
+FROM bitnami/kubectl:1.22.8-debian-10-r12
+
+# Tags: 1.23.5-debian-10-r12
+FROM bitnami/kubectl:1.23.5-debian-10-r12
+
+# Tags: 1.21.11-debian-10-r12
+FROM bitnami/kubectl:1.21.11-debian-10-r12
+
+# Tags: 1.22.8-debian-10-r11
+FROM bitnami/kubectl:1.22.8-debian-10-r11
+
+# Tags: 1.23.5-debian-10-r11
+FROM bitnami/kubectl:1.23.5-debian-10-r11
+
+# Tags: 1.21.11-debian-10-r11
+FROM bitnami/kubectl:1.21.11-debian-10-r11
 
 # Tags: 1.22.8-debian-10-r10
 FROM bitnami/kubectl:1.22.8-debian-10-r10
@@ -298,57 +343,3 @@ FROM bitnami/kubectl:1.23.4-debian-10-r14
 
 # Tags: 1.21.10-debian-10-r14
 FROM bitnami/kubectl:1.21.10-debian-10-r14
-
-# Tags: 1.22.7-debian-10-r13
-FROM bitnami/kubectl:1.22.7-debian-10-r13
-
-# Tags: 1.20.15-debian-10-r43
-FROM bitnami/kubectl:1.20.15-debian-10-r43
-
-# Tags: 1.23.4-debian-10-r13
-FROM bitnami/kubectl:1.23.4-debian-10-r13
-
-# Tags: 1.21.10-debian-10-r13
-FROM bitnami/kubectl:1.21.10-debian-10-r13
-
-# Tags: 1.22.7-debian-10-r12
-FROM bitnami/kubectl:1.22.7-debian-10-r12
-
-# Tags: 1.20.15-debian-10-r42
-FROM bitnami/kubectl:1.20.15-debian-10-r42
-
-# Tags: 1.23.4-debian-10-r12
-FROM bitnami/kubectl:1.23.4-debian-10-r12
-
-# Tags: 1.21.10-debian-10-r12
-FROM bitnami/kubectl:1.21.10-debian-10-r12
-
-# Tags: 1.22.7-debian-10-r11
-FROM bitnami/kubectl:1.22.7-debian-10-r11
-
-# Tags: 1.20.15-debian-10-r41
-FROM bitnami/kubectl:1.20.15-debian-10-r41
-
-# Tags: 1.23.4-debian-10-r11
-FROM bitnami/kubectl:1.23.4-debian-10-r11
-
-# Tags: 1.21.10-debian-10-r11
-FROM bitnami/kubectl:1.21.10-debian-10-r11
-
-# Tags: 1.22.7-debian-10-r10
-FROM bitnami/kubectl:1.22.7-debian-10-r10
-
-# Tags: 1.20.15-debian-10-r40
-FROM bitnami/kubectl:1.20.15-debian-10-r40
-
-# Tags: 1.23.4-debian-10-r10
-FROM bitnami/kubectl:1.23.4-debian-10-r10
-
-# Tags: 1.21.10-debian-10-r10
-FROM bitnami/kubectl:1.21.10-debian-10-r10
-
-# Tags: 1.22.7-debian-10-r9
-FROM bitnami/kubectl:1.22.7-debian-10-r9
-
-# Tags: 1.20.15-debian-10-r39
-FROM bitnami/kubectl:1.20.15-debian-10-r39
